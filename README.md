@@ -646,6 +646,62 @@ Screenshots of the application can be added here.
 
 ---
 
+---
+
+# Live Deployment
+
+The application is deployed using Vercel and Render.
+
+### GitHub Repository
+
+https://github.com/Ramprasad13x/sales-management-system
+
+### FastAPI Backend
+
+https://sales-management-api-7yey.onrender.com
+
+### API Documentation
+
+https://sales-management-api-7yey.onrender.com/docs
+
+### Admin Dashboard
+
+https://sales-management-system-omega-five.vercel.app
+
+### Salesman Application
+
+https://sales-management-system-abah.vercel.app
+
+### Database
+
+PostgreSQL is deployed on Render and is connected to the FastAPI backend.
+
+The production database contains the following tables:
+
+- users
+- customers
+- products
+- orders
+- order_items
+
+The frontend applications communicate with the FastAPI backend, and the backend communicates with the PostgreSQL database.
+
+---
+
+# Test Credentials
+
+The following credentials are provided for testing the deployed applications.
+
+### Admin
+Email: admin@example.com
+Password: Admin@123
+Role: admin
+
+### Salesman
+Email: salesman@example.com
+password: Salesman@123
+Role: salesman
+
 # Future Improvements
 
 Some things I would like to add later:
